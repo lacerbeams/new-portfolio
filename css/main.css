@@ -190,9 +190,9 @@ i {
 
 /*RESPONSIVE*/
 
-/*DESKTOP*/
+/*IPAD*/
 
-@media (min-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .full-width {
     width: 80%;
     margin: 0 10%;

@@ -80,6 +80,7 @@ header h2 span {
 
 #about h2 {
   font-size: 36px;
+  clear: both;
 }
 
 #about p {
@@ -186,8 +187,50 @@ i {
   padding-right: 48px;
 }
 
+/*RESPONSIVE*/
 
+/*DESKTOP*/
 
+@media (min-width: 1200px) {
+  .full-width {
+    width: 80%;
+    margin: 0 20%;
+  }
+
+  .half-width {
+    width: 40%;
+    float: left;
+  }
+
+  .quarter-width {
+    width: 20%;
+    float: left;
+  }
+}
+
+/*TABLET*/
+
+@media (max-width: 768px) {
+
+  .full-width {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .half-width {
+    width: 50%;
+    float: left;
+  }
+
+  .quarter-width {
+    width: 25%;
+    float: left;
+  }
+}
+
+/*PHONE*/
+
+/*@media (min-width: )*/
 
 
 

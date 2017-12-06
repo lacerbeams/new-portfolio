@@ -100,8 +100,8 @@ header h2 span {
 }
 
 i {
-  font-size: 75px;
-  padding-right: 40px;
+  font-size: 60px;
+  margin: 50px;
 }
 
 /*WORK*/
@@ -242,6 +242,60 @@ i {
   }
 }
 
+
+/*KINDA BIG*/
+
+@media screen and (max-width: 965px) {
+  .full-width {
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  .half-width {
+    width: 40%;
+    float: left;
+  }
+
+  .third-width {
+    width: 20%;
+    float: left;
+  }
+
+  header h2 {
+    width: 800px;
+  }
+
+  #about {
+    height: 900px;
+  }
+
+  #work .third-width {
+    width: 100%;
+  }
+
+  #work {
+    height: 1100px;
+  }
+
+  #contact-img {
+    width: 400px;
+  }
+
+  #contact .half-width {
+    width: 400px;
+  }
+
+  #contact a {
+    font-size: 15px;
+  }
+
+  i {
+    font-size: 50px;
+    margin: 20px;
+  }
+}
+
+
 /*TABLET*/
 
 @media screen and (max-width: 768px) {
@@ -292,8 +346,8 @@ i {
   }
 
   i {
-    font-size: 40px;
-    padding-right: 30px;
+    font-size: 30px;
+    margin: 20px;
   }
 
   #work {
@@ -348,7 +402,7 @@ i {
 
 /*PHONE*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
 
   .full-width {
     width: 100%;
@@ -400,8 +454,8 @@ i {
   }
 
   i {
-    font-size: 40px;
-    padding: 10px;
+    font-size: 50px;
+    margin: 10px;
   }
 
   #work {
@@ -457,6 +511,125 @@ i {
     padding: 20px;
   }
 }
+
+
+
+/*EVEN SMALLER*/
+
+@media screen and (max-width: 360px) {
+
+  .full-width {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .half-width {
+    width: 50%;
+    float: left;
+  }
+
+  .third-width {
+    width: 25%;
+    float: left;
+  }
+
+  header {
+    height: 600px;
+  }
+
+  h1 {
+    margin-left: 40px;
+  }
+
+  header h2 {
+    font-size: 40px;
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  nav {
+    padding-left: 0;
+  }
+
+  li a {
+    margin-left: -50px;
+  }
+
+  #about {
+    height: 1100px;
+  }
+
+  #about .half-width {
+    width: 100%;
+  }
+
+  #skills {
+    margin: 0;
+  }
+
+  i {
+    font-size: 20px;
+  }
+
+  #work {
+    height: 1300px;
+  }
+
+  #work p {
+    padding: none;
+  }
+
+  #work .third-width {
+    width: 100%;
+  }
+
+  #contact {
+    height: 800px;
+  }
+
+  #contact .half-width {
+    width: 100%;
+  }
+
+  #contact-img {
+    width: 300px;
+    margin-top: 25px;
+  }
+
+  #contact h2 {
+    padding: 0 0 20px 0;
+  }
+
+  #email-header {
+    padding: 0 0 20px 0;
+  }
+
+  #envelope {
+    padding: 0;
+  }
+
+  #contact a {
+    font-size: 20px;
+  }
+
+  #socialmedia-header{
+    padding: 0;
+  }
+
+  #contact ul {
+    padding: 0 25px;
+  }
+
+  li img {
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
 
 
 
